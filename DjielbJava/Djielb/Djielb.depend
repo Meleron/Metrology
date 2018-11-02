@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1540919321 source:d:\Бгуир\3 семестр\Метрология\djielb for java\djielb\main.cpp
+	<algorithm>
+	<iostream>
+	<fstream>
+	<vector>
+	<set>
+	<map>
+	<cmath>
+	<string>
+	<stack>
+
+1540919321 source:d:\c\djielb for java\djielb\main.cpp
+	<algorithm>
+	<iostream>
+	<fstream>
+	<vector>
+	<set>
+	<map>
+	<cmath>
+	<string>
+	<stack>
+
+1541176879 source:d:\c\djielbjava\djielb\main.cpp
+	<algorithm>
+	<iostream>
+	<fstream>
+	<vector>
+	<set>
+	<map>
+	<cmath>
+	<string>
+	<stack>
+
