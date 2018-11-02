@@ -1,9 +1,5 @@
 public class BinaryConverter {
     
-    int i = 0;
-    byte bKbd[] = new byte[256];
-    String szStr = "";
-    StringTokenizer st;
     public static void main(String[] args){
         for(int i = -5; i < 33; i++){
             System.out.println(i + ": " + toBinary(i));
@@ -18,7 +14,6 @@ public class BinaryConverter {
      * post: returns a String with base10Num in base 2
      */
     public static String toBinary(int base10Num){
-        
         boolean isNeg = base10Num < 0;
         base10Num = Math.abs(base10Num);        
         String result = "";
@@ -54,48 +49,4 @@ public class BinaryConverter {
         }
         return all;
     }
-    public void funFnction(){
-        int a;
-        Scanner scan = new Scanner(System.in);
-        a = scan.nextInt();
-        for(int i = 0 ; i< 10 ; i++){
-            switch(a+i){
-                case 0:{
-                    a = i+4;
-                    break;
-                }
-                case 5:{
-                    a = a*2+i*3;
-                    break;
-                }
-                case 10:{
-                    a = 100;
-                    break;
-                }
-                case 18:{
-                    a = i;
-                    break;
-                }
-                default:{
-                    if(a%5==0){
-                        i++;
-                        a = 10;
-                    }
-                    if(a%2==0){
-                        a++;
-                        a = a*3;
-                    }
-                    else{
-                        if((a+i)%2==0){
-                            a++;
-                            i++;
-                            a = a+i;
-                        }
-                        a++;
-                    }
-                }
-            }
-        }
-    }
-
 }

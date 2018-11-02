@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1538768663 source:d:\Бгуир\3 семестр\Метрология\holsted for java\holstedjava\main.cpp
+	<algorithm>
+	<iostream>
+	<fstream>
+	<vector>
+	<set>
+	<map>
+	<cmath>
+	<string>
+	<stack>
+

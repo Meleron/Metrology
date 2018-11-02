@@ -1,0 +1,20 @@
+class A {
+
+	public static void main(String[] args) {
+		int a = 5;
+		Integer b;
+		String str = "someStr";
+		for(int i = 0 ; i< 10 ; i++) {
+			System.out.println(i);
+		}
+		for(int i = 0 ; i< 10 ; i++) {
+			System.out.println(i);
+		}
+		isPrime(5);
+	}
+	
+	public static boolean isPrime(int enter){
+		return enter%2==0;
+	}
+
+}
